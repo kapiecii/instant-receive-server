@@ -1,0 +1,1 @@
+docker container run -it --name simple-web-uploader --mount type=bind,source="$(pwd)"/src/,target=/mnt -p 8080:8080 --rm golang:1.23.3-bullseye bash
